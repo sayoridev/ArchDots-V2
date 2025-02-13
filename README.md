@@ -22,6 +22,9 @@
 
 # What i use for my system
 **OS**: Arch Linux
+
 **WM**: i3
+
 **Compositor**: Picom
+
 **Login Manager**: [Ly](https://github.com/fairyglade/ly)
