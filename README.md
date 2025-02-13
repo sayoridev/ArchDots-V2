@@ -64,6 +64,7 @@
 **Screen Lock**: [i3lock-color](https://github.com/Raymo111/i3lock-color)
 
 # Ly
+![Ly](Image/ly.jpg)
 
 # Dunst
 ![dunst](Image/dunst.png)
