@@ -28,3 +28,21 @@
 **Compositor**: Picom
 
 **Login Manager**: [Ly](https://github.com/fairyglade/ly)
+
+**Bar**: Polybar
+
+**Application Launcher**: Rofi 
+
+**Notify Manager**: Dunst
+
+**Terminal**: Kitty
+
+**File Manager**: Thunar
+
+**Icon Pack**:[Win11-red-dark](https://www.gnome-look.org/p/1546069)
+
+**System Font**:FiraCode Nerd Font
+
+**Text Editor**: Neovim, Visual Studio Code
+
+**Screen Lock**: [i3lock-color](https://github.com/Raymo111/i3lock-color)
