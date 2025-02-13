@@ -1,0 +1,40 @@
+[global]
+    monitor = 0
+    follow = mouse
+    width = 400
+    height = 100
+    offset = 10x10
+    transparency = 0
+    corner_radius = 0
+    frame_width = 2
+    frame_color = "#444444"
+    separator_color = "#444444"
+    padding = 15
+    horizontal_padding = 15
+    font = "FiraCode Nerd Font 10"
+    line_height = 0
+    format = "%s\n%b"
+    alignment = center
+    show_age_threshold = 60
+    sort = yes
+    indicate_hidden = yes
+    shrink = no
+    idle_threshold = 120
+    hide_on_dismiss = no
+    sticky_history = no
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#444444"
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#444444"
+
+[urgency_critical]
+    background = "#000000"
+    foreground = "#ff4444"
+    frame_color = "#ff4444"
+
