@@ -4,12 +4,21 @@
 > Read the config files to know what package you need to insall.
 
 [What new in this rice?](#what-new-in-this-rice)
+
 [What i use for my system](#what-i-use-for-my-system)
+
 [Ly](#ly)
+
 [Dunst](#dunst)
+
 [Rofi](#rofi)
+
 [i3lock](#i3lock)
+
 [Firefox](#firefox)
+
+[Vscode](#visual-studio-code)
+
 [Installation](#installation)
 
 ## My second i3 rice, but more better
