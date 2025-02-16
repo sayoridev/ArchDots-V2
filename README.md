@@ -63,6 +63,8 @@
 
 **Screen Lock**: [i3lock-color](https://github.com/Raymo111/i3lock-color)
 
+**Fetch**: [Neofetch Theme](https://github.com/chick2d/neofetch-themes/blob/main/normal/acenoster.conf)
+
 # Ly
 ![Ly](Image/ly.jpg)
 
