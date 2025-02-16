@@ -29,7 +29,7 @@ exec --no-startup-id picom
 exec_always --no-startup-id dunst
 
 #keyboard italian us
-exec --no-startup-id setxkbmap -layout it -variant us
+exec --no-startup-id setxkbmap -layout it
 
 #polybar
 exec --no-startup-id ~/polybar.sh
@@ -59,7 +59,7 @@ exec --no-startup-id xset s off -dpms
 #set auto lockscreen 
 #exec --no-startup-id xidlehook --not-when-fullscreen --not-when-audio --timer normal 600 "i3lock -B sigma --clock --ringwrong-color E5D4DC --insidewrong-color=ffffff22 --inside-color=7D1B1B80 --line-color=CC0000 --ring-color=3D0000 --keyhl-color=DCD1D1 --verif-color=785E5C --insidever-color=ffffff00 --ringver-color=9F5A5A --date-color=ffffff --time-color=EAD1DC" ''
 
-exec --no-startup-id ~/.config/i3/no_lock_fullscreen.sh
+exec --no-startup-id ~/.config/i3/no_lock_fullscreen.sh 
 
 ##############################################################################
 
@@ -82,8 +82,19 @@ bindsym $mod+k exec kcalc
 bindsym $mod+e exec thunar
 
 # rofi-emoji
-bindsym $mod1+e exec rofi -show emoji
+bindsym $mod1+e exec rofi -show emoji 
 
+# firefox 
+bindsym $mod1+f exec firefox
+
+# firefox choose account
+bindsym $mod1+shift+f exec firefox -p
+
+# lutris 
+bindsym $mod1+l exec lutris
+
+# vscode
+bindsym $mod1+c exec code
 ################################################################################################################
 
 # Use pactl to adjust volume in PulseAudio.
@@ -92,6 +103,10 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+
+# Use brighnessctl to adjust brightens
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5% && ~/scripts/brightness.sh 
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%- && ~/scripts/brightness.sh
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -103,7 +118,7 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec kitty
 
 # i3 lock
-bindsym $mod+l exec i3lock -B sigma --clock --ringwrong-color E5D4DC --insidewrong-color=ffffff22 --inside-color=7D1B1B80 --line-color=CC0000 --ring-color=3D0000 --keyhl-color=DCD1D1 --verif-color=785E5C --insidever-color=ffffff00 --ringver-color=9F5A5A --date-color=ffffff --time-color=EAD1DC 
+bindsym $mod+l exec i3lock -B sigma --clock --ringwrong-color E5D4DC --insidewrong-color=ffffff22 --inside-color=7D1B1B80 --line-color=CC0000 --ring-color=3D0000 --keyhl-color=DCD1D1 --verif-color=785E5C --insidever-color=ffffff00 --ringver-color=9F5A5A --date-color=ffffff --time-color=EAD1DC
 
 # kill focused window
 bindsym $mod+q kill
